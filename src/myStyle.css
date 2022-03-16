@@ -1,0 +1,38 @@
+#container {
+    width: 100%; 
+    height: 100%; 
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+margin: auto;
+}
+
+#countdown {
+font-weight: bold;
+}
+
+
+#fetchContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#searchContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#searchField {
+    display: inline-block;
+}
+
+#searchButton {
+    display: inline-block;
+}
+
+#notFound {
+    height: 30px; 
+}

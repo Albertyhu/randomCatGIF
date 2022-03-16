@@ -29,6 +29,9 @@
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "@giphy/js-components": "^5.4.1",
+    "@giphy/js-fetch-api": "^4.1.2",
+    "lodash": "^4.17.21",
+    "throttle-debounce": "^3.0.1"
   }
 }

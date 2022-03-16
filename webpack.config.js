@@ -67,7 +67,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Custom Template',
-            template: './src/home.html',
+            template: './src/index.html',
             minify: true,
         }),
     ],
