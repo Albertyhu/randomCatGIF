@@ -8,10 +8,10 @@ import './searchGIF.js';
 require('./index.html')
 
 const countdown = {
-    count: 5,
+    count: 20,
     decrement() {
         if (this.count == 0) {
-            this.count = 5;
+            this.count = 20;
         }
         else {
             this.count--;
@@ -33,10 +33,10 @@ fetch('https://api.giphy.com/v1/gifs/translate?api_key=AwFuWvUi5hOrf2vqElpXARws8
         //console.log(response)
     })
 
-/*
+
 setInterval(function () {
     location.reload();
-}, 5000)
+}, 20000)
 const countDisplay = document.getElementById('countdown');
 countDisplay.innerHTML = countdown.count;
 setInterval(function () {
@@ -44,4 +44,3 @@ setInterval(function () {
     countDisplay.innerHTML = countdown.count;
 
 }, 1000)
-*/
