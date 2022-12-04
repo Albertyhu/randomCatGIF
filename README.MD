@@ -1,0 +1,1 @@
+This app will generate a random cat image. 
